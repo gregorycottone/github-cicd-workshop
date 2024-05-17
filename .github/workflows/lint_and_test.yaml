@@ -19,5 +19,5 @@ jobs:
       working-directory: exercise_2
     # Add step to install dependencies
 
-  lint:
+  # lint:
     # Complete the lint job configuration
