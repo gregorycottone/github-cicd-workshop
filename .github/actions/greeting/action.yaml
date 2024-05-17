@@ -1,0 +1,15 @@
+name: Hello World Action
+
+description: A custom action that prints a hello message
+
+inputs:
+  message:
+    description: The message to print
+    required: true
+
+runs:
+  using: "composite"
+  steps:
+    - name: Set Greeting
+      run: echo "Hello $INPUT_WHO_TO_GREET."
+      shell: bash
