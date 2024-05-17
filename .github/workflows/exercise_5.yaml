@@ -15,4 +15,4 @@ jobs:
       - name: Print Hello World
         uses: ./.github/actions/greeting
         with:
-          message: "Hello, ${{ github.event.pull_request.title }}"
+          who-to-greed: "people"
