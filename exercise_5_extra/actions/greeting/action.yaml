@@ -11,5 +11,7 @@ runs:
   using: "composite"
   steps:
     - name: Set Greeting
-      run: echo "${{ inputs.message }}"
+      run: echo "$INPUT_WHO_TO_GREET"
       shell: bash
+      env:
+        INPUT_WHO_TO_GREET: ${{ inputs.message }}
