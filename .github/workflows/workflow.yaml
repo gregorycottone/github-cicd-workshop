@@ -17,7 +17,7 @@ jobs:
 
     - name: Run stress-ng
       run: |
-        echo "Starting stress test"
+        echo "Starting stress test in your Linux machine"
         stress-ng --cpu 4 --io 4 --vm 2 --vm-bytes 2G --timeout 300s --metrics-brief
 
 
