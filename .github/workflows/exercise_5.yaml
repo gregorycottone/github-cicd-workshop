@@ -15,4 +15,4 @@ jobs:
       - name: Print Hello World
         uses: ./.github/actions/greeting
         with:
-          who-to-greed: "people"
+          message: "people"
