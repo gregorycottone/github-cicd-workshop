@@ -12,6 +12,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Print Hello World
-        uses: ./.github/actions/greeting/action@v1
+        uses: ./.github/actions/greeting
         with:
           message: "Hello, ${{ github.event.pull_request.title }}"
